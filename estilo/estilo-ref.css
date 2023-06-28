@@ -323,7 +323,7 @@ li a{
 .formacao > div{
   margin: 4px;
   padding: 4px;
-  font-size: 14px;
+  font-size: 12px;
   font-family: 'Nunito Sans', sans-serif;
 
 }
@@ -360,7 +360,7 @@ li a{
 .formacao2 > div{
   margin: 4px;
   padding: 4px;
-  font-size: 14px;
+  font-size: 12px;
   font-family: 'Nunito Sans', sans-serif;
 
 }
@@ -393,8 +393,11 @@ li a{
   font-family: 'Alfa Slab One', cursive;
   text-align: center;
   font-size: 30px;
-
 }
+  #titulo h1{
+    font-size: 30px
+   
+  }
    .sidebar{
   display: flex;
   position: fixed;
