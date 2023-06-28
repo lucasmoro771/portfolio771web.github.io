@@ -189,7 +189,7 @@ li a{
   }
 
   .sidebar{
-  display: flex;
+  display: none;
   position: fixed;
   top: -5%;
   right: 8%;
@@ -268,7 +268,7 @@ li a{
   }
 
   .sidebar{
-  display: flex;
+  display: none;
   position: fixed;
   top: -18%;
   right: 4%;
