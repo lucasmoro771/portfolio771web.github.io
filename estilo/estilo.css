@@ -76,7 +76,7 @@ h1{
 
 .gradientl {
   
-  font-family: 'Monoton', cursive;
+  font-family: 'Coda', cursive;
   background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
   background-clip: text;
   -webkit-background-clip: text; 
