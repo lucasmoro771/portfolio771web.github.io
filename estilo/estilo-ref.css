@@ -264,7 +264,7 @@ li a{
 }
   
   .sidebar{
-  display: none;
+  display: flex;
   position: fixed;
   top: -18%;
   right: 6%;
@@ -384,7 +384,7 @@ li a{
 @media (min-width: 576px) and (max-width: 767.98px) { 
 
     #titulo{
-  width: 90%;
+  width: 50%;
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 40px;
