@@ -1,0 +1,497 @@
+
+
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-item-left {
+  flex: 20%;
+  background: #2479cb;
+}
+
+.flex-item-right {
+  flex: 80%;
+  background: #F1F1F1;
+}
+
+
+
+#titulo{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 15px;
+  border: 1px dotted grey;
+  font-family: 'Alfa Slab One', cursive;
+  text-align: center;
+
+}
+
+h1{
+  font-size: 80px;
+}
+
+#subtitulo{
+  
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Coda', cursive;
+
+}
+
+#paragrafo{
+  
+  width: 80%;
+  padding: 15px;
+  margin: 0 auto;
+  font-family: 'Coda', cursive;
+  border: 1px solid red;
+
+}
+
+.project{
+  display: flex;
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid red;
+  align-items: center;
+
+}
+.project-item{
+    margin-left: 50px;
+}
+
+#subtitulo h5{
+  font-size: 20px;
+  margin-bottom: 80px;
+}
+
+}
+
+#sobre{
+  margin-top: 20px;
+  font-family: 'Coda', cursive;
+  display: flex;
+}
+
+
+.btnme1:hover{
+  background-color: #2479cb;
+  color: white;
+}
+
+
+
+
+
+/* side bar */
+
+.sidebar{
+  display: flex;
+  position: fixed;
+  top: -15%;
+  right: 0%;
+  border-radius: 20px;
+  width: 4%;
+  height: 15%;
+  float: right;
+  margin-top: 21%;
+  margin-right:3%;
+}
+
+.sidebar i{
+  background: lightgray;
+  padding: 10px;
+  border-radius: 120px;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+  
+
+
+.custom-icon{
+  color: #2479cb;
+}
+.custom-icon:hover{
+  color: #18548c;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1px;
+
+}
+
+ul li{
+  padding: 10px;
+}
+
+li a{
+  color: white;
+  text-decoration: none;
+}
+
+.nav-principal{
+  width: 80%;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.nav-principal a{
+  text-decoration: none;
+  font-family: 'Coda', cursive;
+  font-size: 20px;
+  transition-duration: 0.5s;
+  text-shadow: 2px 2px #0066CC;
+}
+
+.nav-principal a:hover{
+  font-size: 21px;
+  transition-duration: 0.2s;
+  border-bottom: 4px solid #0066CC;
+  color:white;
+  padding: 2px;
+
+}
+
+.sub-ref{
+  margin-left: 20px;
+  padding: 1px;
+  font-family: 'Coda', cursive;
+  font-weight: bold;
+  font-size: 35px;
+
+}
+.formacao{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  flex-direction: row;
+  margin-left: 5px;
+  margin-bottom: 25px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  border-radius: 20px;
+}
+
+
+
+.formacao > div{
+  margin: 4px;
+  padding: 4px;
+  font-size: 19px;
+  font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.formacao p{
+  
+  color: #707070;
+
+}
+.formacao h5{
+  background-color: #2479cb;
+  width: 100%;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 15px;
+  font-size: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;  
+}
+
+
+.formacao2{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  flex-direction: row;
+  margin-left: 5px;
+  margin-bottom: 25px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  border-radius: 20px;
+}
+
+
+
+.formacao2 > div{
+  margin: 4px;
+  padding: 4px;
+  font-size: 19px;
+  font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.formacao2 p{
+  color: #707070;
+
+}
+.formacao2 h5{
+  background-color: #2479cb;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 15px;
+  font-size: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;  
+}
+
+
+
+/* media*/
+
+/* media*/
+
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+@media (max-width: 575.98px) { 
+  .fotome{
+    display: none;
+  }
+
+#titulo h1{
+  font-size: 34px;
+}
+
+#titulo{
+  width: 50%;
+  margin:0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+  
+  .sidebar{
+  display: flex;
+  position: fixed;
+  top: -18%;
+  right: 6%;
+  width: 2%;
+  height: 15%;
+  float: right;
+  margin-top: 21%;
+  margin-right:3%;
+
+}
+
+.sidebar i{
+  background: lightgray;
+  padding: 10px;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+
+}
+
+  .nav-principal{
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.nav-principal a{
+  text-decoration: none;
+  font-family: 'Coda', cursive;
+  font-size: 18px;
+  transition-duration: 0.5s;
+  text-shadow: 2px 2px #0066CC;
+}
+
+  
+.sub-ref{
+  margin-left: 20px;
+  padding: 1px;
+  font-family: 'Coda', cursive;
+  font-weight: bold;
+  font-size: 35px;
+
+}
+.formacao{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  flex-direction: row;
+  margin-left: 5px;
+  margin-bottom: 25px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  border-radius: 20px;
+}
+
+
+
+.formacao > div{
+  margin: 4px;
+  padding: 4px;
+  font-size: 14px;
+  font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.formacao p{
+  
+  color: #707070;
+
+}
+.formacao h5{
+  background-color: #2479cb;
+  width: 100%;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 15px;
+  font-size: 17px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;  
+}
+
+
+.formacao2{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  flex-direction: row;
+  margin-left: 5px;
+  margin-bottom: 25px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  border-radius: 20px;
+}
+
+
+
+.formacao2 > div{
+  margin: 4px;
+  padding: 4px;
+  font-size: 14px;
+  font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.formacao2 p{
+  color: #707070;
+
+}
+.formacao2 h5{
+  background-color: #2479cb;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 15px;
+  font-size: 17px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;  
+}
+
+ }
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+   .sidebar{
+  display: flex;
+  position: fixed;
+  top: -18%;
+  right: 4%;
+  width: 2%;
+  height: 15%;
+  float: right;
+  margin-top: 21%;
+  margin-right:3%;
+
+}
+
+.sidebar i{
+  background: lightgray;
+  padding: 10px;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+
+}
+
+  .nav-principal{
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.nav-principal a{
+  text-decoration: none;
+  font-family: 'Coda', cursive;
+  font-size: 18px;
+  transition-duration: 0.5s;
+  text-shadow: 2px 2px #0066CC;
+}
+
+   .fotome{
+    display: none;
+  }
+  
+  h1{
+    font-size: 50px;
+  }
+
+  .formacao > div{
+    font-size: 16px;
+  }
+
+  .formacao2 > div{
+    font-size: 16px;
+  }
+
+  .formacao h5{
+    font-size: 18px;
+  }
+
+ }
+
+/* Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+  #titulo h1{
+    font-size: 40px;
+  }
+
+  .sidebar{
+  display: flex;
+  position: fixed;
+  top: -18%;
+  right: 2%;
+  width: 2%;
+  height: 15%;
+  float: right;
+  margin-top: 21%;
+  margin-right:3%;
+
+}
+
+.sidebar i{
+  background: lightgray;
+  padding: 10px;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+
+}
+
+  .nav-principal{
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 1px;
+}
+
+.nav-principal a{
+  text-decoration: none;
+  font-family: 'Coda', cursive;
+  font-size: 17px;
+  transition-duration: 0.5s;
+  text-shadow: 2px 2px #0066CC;
+}
+
+
+
+ }
+/* Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+
+ }
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+@media (min-width: 1200px) { 
+
+ }

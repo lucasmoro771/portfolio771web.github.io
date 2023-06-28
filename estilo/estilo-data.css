@@ -1,0 +1,406 @@
+
+
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.flex-item-left {
+  flex: 20%;
+  width: 100%;
+  background: #2479cb;
+}
+
+.flex-item-right {
+  flex: 80%;
+  background: #F3F3F3;
+  width: 100%;
+}
+
+
+
+#titulo{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 15px;
+  border: 1px dotted grey;
+  font-family: 'Alfa Slab One', cursive;
+  text-align: center;
+
+}
+
+h1{
+  font-size: 80px;
+}
+
+#subtitulo{
+  
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Coda', cursive;
+
+}
+
+#paragrafo{
+  
+  width: 80%;
+  padding: 15px;
+  margin: 0 auto;
+  font-family: 'Coda', cursive;
+
+}
+
+#subtitulo h5{
+  font-size: 20px;
+}
+
+}
+
+#sobre{
+  margin-top: 20px;
+  font-family: 'Coda', cursive;
+  display: flex;
+}
+
+
+
+
+
+.btnme1:hover{
+  background-color: #2479cb;
+  color: white;
+}
+
+
+
+
+
+/* side bar */
+.sidebar{
+  display: flex;
+  position: fixed;
+  top: -15%;
+  right: 0%;
+  border-radius: 20px;
+  width: 4%;
+  height: 15%;
+  float: right;
+  margin-top: 21%;
+  margin-right:3%;
+}
+
+.sidebar i{
+  background: lightgray;
+  padding: 10px;
+  border-radius: 120px;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.custom-icon{
+  color: #2479cb;
+}
+.custom-icon:hover{
+  color: #18548c;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1px;
+
+}
+
+ul li{
+  padding: 10px;
+}
+
+li a{
+  color: white;
+  text-decoration: none;
+}
+
+.nav-principal{
+  width: 80%;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.nav-principal a{
+  text-decoration: none;
+  font-family: 'Coda', cursive;
+  font-size: 20px;
+  transition-duration: 0.5s;
+  text-shadow: 2px 2px #0066CC;
+}
+
+.nav-principal a:hover{
+  font-size: 21px;
+  transition-duration: 0.2s;
+  border-bottom: 4px solid #0066CC;
+  color:white;
+  padding: 2px;
+
+}
+
+.container-livro{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  margin-bottom: 200px;
+}
+
+/* cards */
+
+.card {
+  width: 270px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card img {
+  width: 150px;
+  height: 200px;
+  display: block;
+  align-self: center;
+  overflow: hidden;
+  margin-top: 10px;
+  transition-duration: 0.2s;
+}
+
+.card  a{
+  align-self: center;
+}
+
+.card img:hover{
+  filter: brightness(78%);
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+.card-conteudo {
+  padding: 20px;
+}
+
+.card-conteudo h3 {
+  font-size: 19px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family: 'Coda', cursive;
+  border-bottom: 1px solid #ccc;
+
+}
+
+.card-conteudo p {
+  font-size: 14px;
+  color: #8E8E8E;
+  font-family: "Helvetica";
+  padding: 2px;
+}
+
+/* media*/
+
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+@media (max-width: 575.98px) { 
+  .fotome{
+    display: none;
+  }
+
+  #titulo h1{
+    font-size: 35px;
+
+  }
+
+  #subtitulo{
+    font-size: 20px;
+
+  }
+
+  #subtitulo h5{
+    font-size: 20px;
+  }
+
+  #subtitulo p{
+
+    color: #ffff;
+    font-size: 17px;
+    border-radius: 20px;
+    background: #2479cb;
+    font-weight: 150;
+
+  }
+
+  #paragrafo{
+    font-size: 16px;
+  }
+
+  .sidebar{
+  display: flex;
+  position: fixed;
+  top: -5%;
+  right: 8%;
+  width: 1%;
+  height: 15%;
+  float: right;
+  margin-top: 21%;
+  margin-right:3%;
+
+}
+
+.sidebar i{
+  background: lightgray;
+  padding: 8px;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+
+}
+
+  .nav-principal{
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.nav-principal a{
+  text-decoration: none;
+  font-family: 'Coda', cursive;
+  font-size: 20px;
+  transition-duration: 0.5s;
+  text-shadow: 2px 2px #0066CC;
+}
+.phone-number{
+  font-size: 9px;
+}
+
+ }
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+   .fotome{
+    display: none;
+  }
+
+  #titulo h1{
+    font-size: 40px;
+
+  }
+
+  #titulo{
+    width: 60%;
+    margin-top: 25px;
+
+  }
+
+  #subtitulo{
+    font-size: 22px;
+
+  }
+
+  #subtitulo h5{
+    font-size: 20px;
+  }
+
+  #subtitulo p{
+    color: #ffff;
+    font-size: 19px;
+    border-radius: 20px;
+    background: #2479cb;
+    font-weight: 150;
+
+  }
+
+  #paragrafo{
+    font-size: 16px;
+  }
+
+  .sidebar{
+  display: flex;
+  position: fixed;
+  top: -18%;
+  right: 4%;
+  width: 2%;
+  height: 15%;
+  float: right;
+  margin-top: 21%;
+  margin-right:3%;
+
+}
+
+.sidebar i{
+  background: lightgray;
+  padding: 10px;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+
+}
+
+  .nav-principal{
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+
+
+.nav-principal a{
+  text-decoration: none;
+  font-family: 'Coda', cursive;
+  font-size: 18px;
+  transition-duration: 0.5s;
+  text-shadow: 2px 2px #0066CC;
+}
+ }
+
+/* Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+   .sidebar{
+  display: flex;
+  position: fixed;
+  top: -18%;
+  right: 2%;
+  width: 2%;
+  height: 15%;
+  float: right;
+  margin-top: 21%;
+  margin-right:3%;
+
+}
+
+h1{
+  font-size: 45px;
+}
+.sidebar i{
+  background: lightgray;
+  padding: 10px;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+
+}
+
+ }
+/* Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+h1{
+  font-size: 50px;
+ }
+}
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+@media (min-width: 1200px) { 
+  .nav-button{
+    display: none;
+  }
+ }
