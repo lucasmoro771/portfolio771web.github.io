@@ -297,14 +297,14 @@ li a{
   display: flex;
   position: fixed;
   top: -5%;
-  right: 15%;
+  right: 10%;
   width: 1%;
   height: 15%;
   float: right;
   margin-top: 21%;
   margin-right:3%;
-
 }
+
 
 .sidebar i{
   background: lightgray;
@@ -425,14 +425,13 @@ li a{
   .sidebar{
   display: flex;
   position: fixed;
-  top: -5%;
-  right: 5%;
-  width: 1%;
+  top: -15%;
+  right: 7%;
+  width: 2%;
   height: 15%;
   float: right;
   margin-top: 21%;
   margin-right:3%;
-
 }
 
 .sidebar i{
