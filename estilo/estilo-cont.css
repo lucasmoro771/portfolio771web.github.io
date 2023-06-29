@@ -252,6 +252,22 @@ li a{
   margin-left: 10px;
 }
 
+   @media screen and
+(min-width: 900px) and
+(orientation:landscape){
+    .sidebar{
+  display: flex;
+  position: fixed;
+  top: -40%;
+  right: 3%;
+  width: 2%;
+  height: 15%;
+  float: right;
+  margin-top: 21%;
+  margin-right:3%;
+  z-index: 100;
+}
+
 .nav-principal a{
   text-decoration: none;
   font-family: 'Coda', cursive;
