@@ -227,16 +227,15 @@ li a{
   }
 
   .sidebar{
-  display: none;
+  display: flex;
   position: fixed;
-  top: 10%;
-  right: 11%;
+  top: -5%;
+  right: 10%;
   width: 1%;
   height: 15%;
   float: right;
   margin-top: 21%;
   margin-right:3%;
-
 }
 
 .sidebar i{
@@ -303,17 +302,16 @@ li a{
     font-size: 20px;
   }
 
-    .sidebar{
+  .sidebar{
   display: flex;
   position: fixed;
-  top: 10%;
+  top: -15%;
   right: 7%;
-  width: 1%;
+  width: 2%;
   height: 15%;
   float: right;
   margin-top: 21%;
   margin-right:3%;
-
 }
 
 .sidebar i{
