@@ -145,15 +145,15 @@ ul li{
   .sidebar{
   display: flex;
   position: fixed;
-  top: -10%;
-  right: 9%;
-  width: 2%;
+  top: -5%;
+  right: 10%;
+  width: 1%;
   height: 15%;
   float: right;
   margin-top: 21%;
   margin-right:3%;
-
 }
+
 
   .fotome{
     display: none;
@@ -228,13 +228,12 @@ ul li{
   display: flex;
   position: fixed;
   top: -15%;
-  right: 6%;
+  right: 7%;
   width: 2%;
   height: 15%;
   float: right;
   margin-top: 21%;
   margin-right:3%;
-
 }
 
 .sidebar i{
